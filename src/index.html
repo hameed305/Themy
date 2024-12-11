@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css" />
+    <link rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
+    />
+    <title>Dark mode</title>
+  </head>
+  <body>
+    <div
+      class="dark:bg-black dark:text-slate-400 text-[--text-color] bg-[--first-bg]"
+    >
+      <header
+        class="p-2 text-[--text-color] w-full shadow-lg sticky top-0 z-50 dark:bg-slate-900 dark:text-slate-200 bg-[--second-bg]"
+      >
+        <nav class="w-full flex items-center justify-center gap-3">
+          <ul
+            class="flex items-center justify-center gap-4 flex-wrap w-60 *:px-2 *:py-1 *:flex *:items-center *:justify-center hover:*:bg-slate-300 dark:hover:*:bg-slate-700 *:rounded-sm"
+          >
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+
+          <div
+            class="w-40 p-2 relative flex items-center justify-center text-center bg-slate-300 dark:bg-slate-600 dark:text-white rounded-full cursor-pointer text-black"
+            id="them"
+          >
+            <span>THEM</span>
+            <div
+              class="absolute top-11 left-0 bg-slate-200 hidden items-center justify-center flex-col gap-3 p-1 rounded-lg *:p-2 hover:*:bg-slate-100 w-44 *:rounded-lg"
+              id="them_box"
+            >
+              <button id="dark_mode" class="text-black">DARK THEM</button>
+              <button id="green_mode" class="text-green-500">GREEN THEM</button>
+              <button id="blue_mode" class="text-blue-500">BLUE THEM</button>
+              <button id="violet_mode" class="text-violet-500">
+                VIOLET THEM
+              </button>
+              <button
+                id="random_mode"
+                class="text-transparent bg-clip-text bg-gradient-to-r from-violet-500 via-orange-500 to-blue-500"
+              >
+                RANDOM THEM
+              </button>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main class="p-3 container mx-auto">
+        <section
+          class="min-h-dvh flex items-center justify-evenly gap-4 w-full flex-wrap"
+        >
+          <div class="flex flex-col gap-3 items-start justify-center w-[550px]">
+            <h1
+              class="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-violet-600 bg-orange-400"
+            >
+              A SIMPLE THEMS PROJECT
+            </h1>
+            <p class="text-xl">
+              This project has been make for the purpose of learning and
+              practicing js logic
+            </p>
+            <span
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora,
+              harum, ipsum ab odio libero ipsam sed cupiditate quos corporis
+              voluptatum tempore iure cum officiis ea! Nemo repudiandae tempore
+              eum cum.</span
+            >
+          </div>
+          <!-- image div -->
+          <div class="relative flex items-center justify-center">
+            <img
+              src="https://img.freepik.com/premium-photo/colorful-cube-with-blue-orange-colored-squares-it_1103290-39377.jpg?ga=GA1.1.885243126.1732395768&semt=ais_hybrid"
+              alt="img"
+              class="size-60 rounded-2xl relative bottom-20 left-30 max-sm:size-30"
+            />
+            <img
+              src="https://img.freepik.com/premium-photo/3d-illustration-multicolored-pens-box-pink-background_1308175-190259.jpg?ga=GA1.1.885243126.1732395768&semt=ais_hybrid"
+              alt="img"
+              class="size-40 rounded-2xl relative bottom-20 left-0 rotate-45 max-sm:size-30"
+            />
+            <img
+              src="https://img.freepik.com/free-photo/colorful-object-with-circle-middle-that-says-number-4-it_1340-38222.jpg?ga=GA1.1.885243126.1732395768&semt=ais_hybrid"
+              alt="img"
+              class="size-40 rounded-2xl relative bottom-0 left-0 max-sm:size-30"
+            />
+          </div>
+        </section>
+        <section class="py-12 px-6">
+          <div class="max-w-7xl mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-6">PROJECT FEATURES</h2>
+            <p class="text-lg mb-12">
+              The best stylish colors thems for your projects
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <!-- Feature 1 -->
+              <div
+                class="p-6 shadow-lg rounded-lg dark:bg-slate-900 dark:border dark:border-slate-700 bg-[--second-bg]"
+              >
+                <div
+                  class="flex items-center justify-center w-16 h-16 mx-auto mb-4 text-blue-600 rounded-full"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-8 w-8"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">High Performance</h3>
+                <p class="text-gray-600">
+                  Optimized for speed and efficiency to deliver the best
+                  results.
+                </p>
+              </div>
+              <!-- Feature 2 -->
+              <div
+                class="p-6 shadow-lg rounded-lg dark:bg-slate-900 dark:border dark:border-slate-700 bg-[--second-bg]"
+              >
+                <div
+                  class="flex items-center justify-center w-16 h-16 mx-auto mb-4 bg-green-100 text-green-600 rounded-full"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-8 w-8"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M13 10V3L4 14h7v7l9-11h-7z"
+                    />
+                  </svg>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Easy Integration</h3>
+                <p class="text-gray-600">
+                  Seamlessly integrate with your existing tools and workflows.
+                </p>
+              </div>
+              <!-- Feature 3 -->
+              <div
+                class="p-6 shadow-lg rounded-lg dark:bg-slate-900 dark:border dark:border-slate-700 bg-[--second-bg]"
+              >
+                <div
+                  class="flex items-center justify-center w-16 h-16 mx-auto mb-4 bg-yellow-100 text-yellow-600 rounded-full"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-8 w-8"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 8c-1.5 0-2.75 1.12-2.75 2.5S10.5 13 12 13s2.75-1.12 2.75-2.5S13.5 8 12 8z"
+                    />
+                  </svg>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Customizable Design</h3>
+                <p class="text-gray-600">
+                  Tailor the design to match your brand and preferences.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
