@@ -13,7 +13,7 @@ A simple and visually appealing theme project built using HTML, CSS, and JavaScr
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/hameed305/Simple-Themy-using-html-css-javascript.git
+   git clone https://github.com/hameed305/them-project.git
    ```
 2. Navigate to the project directory:
    ```bash
