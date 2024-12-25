@@ -17,7 +17,7 @@ A simple and visually appealing theme project built using HTML, CSS, and JavaScr
    ```
 2. Navigate to the project directory:
    ```bash
-   cd Simple-Themy-using-html-css-javascript.git
+   cd Themy
    ```
 3. Open `index.html` in your browser to view the project.
 

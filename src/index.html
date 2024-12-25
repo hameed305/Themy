@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="output.css" />
-    <link rel="stylesheet" />
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
@@ -18,9 +18,11 @@
       <header
         class="p-2 text-[--text-color] w-full shadow-lg sticky top-0 z-50 dark:bg-slate-900 dark:text-slate-200 bg-[--second-bg]"
       >
-        <nav class="w-full flex items-center justify-center gap-3">
+        <nav
+          class="w-full flex items-start justify-start gap-3 max-md:flex-col max-md:items-center max-md:justify-center"
+        >
           <ul
-            class="flex items-center justify-center gap-4 flex-wrap w-60 *:px-2 *:py-1 *:flex *:items-center *:justify-center hover:*:bg-slate-300 dark:hover:*:bg-slate-700 *:rounded-sm"
+            class="flex items-center justify-center gap-4 flex-wrap w-[500px] max-md:w-full px-4 py-2"
           >
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
@@ -33,7 +35,7 @@
           >
             <span>THEM</span>
             <div
-              class="absolute top-11 left-0 bg-slate-200 hidden items-center justify-center flex-col gap-3 p-1 rounded-lg *:p-2 hover:*:bg-slate-100 w-44 *:rounded-lg"
+              class="absolute top-11 left-0 bg-slate-200 hidden items-center justify-center flex-col gap-3 p-1 rounded-lg w-44"
               id="them_box"
             >
               <button id="dark_mode" class="text-black">DARK THEM</button>
@@ -54,19 +56,21 @@
       </header>
       <main class="p-3 container mx-auto">
         <section
-          class="min-h-dvh flex items-center justify-evenly gap-4 w-full flex-wrap"
+          class="min-h-screen flex items-center justify-evenly gap-4 w-full flex-wrap"
         >
-          <div class="flex flex-col gap-3 items-start justify-center w-[550px]">
+          <div
+            class="flex flex-col gap-3 items-start justify-center w-full md:w-[550px]"
+          >
             <h1
-              class="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-violet-600 bg-orange-400"
+              class="max-md:text-center text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-violet-600 to-orange-400"
             >
-              A SIMPLE THEMS PROJECT
+              A SIMPLE THEMES PROJECT
             </h1>
-            <p class="text-xl">
-              This project has been make for the purpose of learning and
-              practicing js logic
+            <p class="text-xl max-md:text-center">
+              This project has been made for the purpose of learning and
+              practicing JS logic.
             </p>
-            <span
+            <span class="max-md:text-center"
               >Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora,
               harum, ipsum ab odio libero ipsam sed cupiditate quos corporis
               voluptatum tempore iure cum officiis ea! Nemo repudiandae tempore
@@ -74,21 +78,23 @@
             >
           </div>
           <!-- image div -->
-          <div class="relative flex items-center justify-center">
+          <div
+            class="relative flex items-center justify-center flex-wrap gap-4 mt-20"
+          >
             <img
               src="https://img.freepik.com/premium-photo/colorful-cube-with-blue-orange-colored-squares-it_1103290-39377.jpg?ga=GA1.1.885243126.1732395768&semt=ais_hybrid"
               alt="img"
-              class="size-60 rounded-2xl relative bottom-20 left-30 max-sm:size-30"
+              class="w-60 h-60 rounded-2xl relative bottom-20 left-30 max-sm:w-30 max-sm:h-30 max-lg:hidden"
             />
             <img
               src="https://img.freepik.com/premium-photo/3d-illustration-multicolored-pens-box-pink-background_1308175-190259.jpg?ga=GA1.1.885243126.1732395768&semt=ais_hybrid"
               alt="img"
-              class="size-40 rounded-2xl relative bottom-20 left-0 rotate-45 max-sm:size-30"
+              class="w-40 h-40 rounded-2xl relative bottom-20 left-0 rotate-45 max-sm:w-30 max-sm:h-30 max-lg:hidden"
             />
             <img
               src="https://img.freepik.com/free-photo/colorful-object-with-circle-middle-that-says-number-4-it_1340-38222.jpg?ga=GA1.1.885243126.1732395768&semt=ais_hybrid"
               alt="img"
-              class="size-40 rounded-2xl relative bottom-0 left-0 max-sm:size-30"
+              class="w-40 h-40 rounded-2xl relative bottom-0 left-0 max-sm:w-30 max-sm:h-30 max-lg:hidden"
             />
           </div>
         </section>
